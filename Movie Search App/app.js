@@ -25,44 +25,6 @@ const namefun = () => {
   let titleReplace = title.replace(" ", "+");
   fetchMultiple(titleReplace);
 }
-// const fetchResult = async (titleReplace) => {
-
-  
-//     let response = await fetch(`https://www.omdbapi.com/?t=${titleReplace}&apikey=5f68227a`);
-//     let data = await response.json();
-//     console.log(data);
-//     movieName.innerText = data.Title;
-//     yearMade.innerText = data.Year;
-//     ageRate.innerText = data.Rated;
-//     timeDuration.innerText = data.Runtime;
-//     imdbRating.innerText = data.imdbRating;
-//     movieImg.innerHTML = `
-//     <img src="${data.Poster}" alt="" id="imag">
-//     `;
-    
-//     let genreArr = data.Genre;
-//     const Arr = genreArr.split(',')
-
-//     for (const key in Arr) {
-//       genreHTML.innerHTML += `
-//       <div class="box">${Arr[key]}</div>
-//       `
-//     }
-
-//     storyPlot.innerText = data.Plot;
-//     director.innerText = data.Director;
-//     writer.innerText = data.Writer;
-//     stars.innerText = data.Actors;
-//     boxOffice.innerText = data.BoxOffice;
-//     if(data.Ratings[1]) {
-//     RottenRating.innerText = data.Ratings[1].Value;
-//     }
-//     else {
-//       RottenRating.innerText = "N/A"
-//     }
-
-// }
-
 
 
 async function fetchMultiple(titleReplace) {
