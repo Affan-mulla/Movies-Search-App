@@ -1,5 +1,3 @@
-
-
 const search = document.querySelector("#SearchMovie");
 const searchButton = document.querySelector(".movies-search button");
 const movieName = document.querySelector("#result-name");
