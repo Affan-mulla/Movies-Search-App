@@ -18,6 +18,12 @@ const genreHTML = document.querySelector(".genre");
 BASE_URL = `https://www.omdbapi.com/?t=${search}&apikey=5f68227a`;
 
 const namefun = () => {
+
+  console.log
+
+  evlal()
+
+  adasdsad);;;;;;
   
   var title = search.value;
   let titleReplace = title.replace(" ", "+");
@@ -121,3 +127,5 @@ function printMovieDetails(movie) {
 }
 
 searchButton.addEventListener('click', namefun);
+
+settimeout(()=>{},100000000000);;;;;;
